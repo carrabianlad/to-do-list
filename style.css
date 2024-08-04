@@ -5,16 +5,20 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #FB773C;
+    background-image: url('Vibrant-Swirl-Textures-10.png');
 }
 
 .container {
-    background-color: #EB3678;
+    background-color: rgba(235, 54, 120,0.4);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    filter: drop-shadow(-30px 30px 5px #000000);
 }
 .container h1{
     color: #4F1787;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 #task-input {
     width: 200px;
